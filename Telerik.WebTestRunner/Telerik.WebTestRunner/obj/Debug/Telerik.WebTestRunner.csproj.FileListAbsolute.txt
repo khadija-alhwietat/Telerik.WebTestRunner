@@ -1,6 +1,3 @@
-D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.AssemblyReference.cache
-D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.SuggestedBindingRedirects.cache
-D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.CoreCompileInputs.cache
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.WebTestRunner.exe.config
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.WebTestRunner.exe
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.WebTestRunner.pdb
@@ -16,6 +13,9 @@ D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bi
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.Sitefinity.CommandLineParsing.pdb
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.WebTestRunner.Client.Core.pdb
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Newtonsoft.Json.xml
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.AssemblyReference.cache
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.SuggestedBindingRedirects.cache
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.CoreCompileInputs.cache
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.CopyComplete
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.exe
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.pdb

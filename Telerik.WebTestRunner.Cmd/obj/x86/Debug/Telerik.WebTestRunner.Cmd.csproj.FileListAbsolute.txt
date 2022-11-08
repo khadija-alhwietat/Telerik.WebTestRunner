@@ -1,0 +1,17 @@
+D:\webtester\cmd\bin\Debug\Telerik.WebTestRunner.Cmd.exe
+D:\webtester\cmd\bin\Debug\Telerik.WebTestRunner.Cmd.pdb
+D:\webtester\cmd\bin\Debug\System.dll
+D:\webtester\cmd\bin\Debug\Telerik.Sitefinity.CommandLineParsing.dll
+D:\webtester\cmd\bin\Debug\Telerik.WebTestRunner.Client.Core.dll
+D:\webtester\cmd\bin\Debug\Telerik.Sitefinity.HttpClientCore.dll
+D:\webtester\cmd\bin\Debug\Microsoft.Http.dll
+D:\webtester\cmd\bin\Debug\Microsoft.Http.Extensions.dll
+D:\webtester\cmd\bin\Debug\IdentityModel.dll
+D:\webtester\cmd\bin\Debug\Newtonsoft.Json.dll
+D:\webtester\cmd\bin\Debug\Telerik.WebTestRunner.Client.Core.pdb
+D:\webtester\cmd\bin\Debug\Newtonsoft.Json.xml
+D:\webtester\cmd\obj\x86\Debug\Telerik.WebTestRunner.Cmd.csproj.AssemblyReference.cache
+D:\webtester\cmd\obj\x86\Debug\Telerik.WebTestRunner.Cmd.csproj.CoreCompileInputs.cache
+D:\webtester\cmd\obj\x86\Debug\Telerik.WebTestRunner.Cmd.csproj.CopyComplete
+D:\webtester\cmd\obj\x86\Debug\Telerik.WebTestRunner.Cmd.exe
+D:\webtester\cmd\obj\x86\Debug\Telerik.WebTestRunner.Cmd.pdb

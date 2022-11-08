@@ -1,0 +1,2 @@
+D:\webtester\Telerik.Sitefinity.HttpClientCore\obj\Debug\Telerik.Sitefinity.HttpClientCore.csproj.AssemblyReference.cache
+D:\webtester\Telerik.Sitefinity.HttpClientCore\obj\Debug\Telerik.Sitefinity.HttpClientCore.csproj.CoreCompileInputs.cache

@@ -1,0 +1,8 @@
+D:\webtester\commandLineParsing\bin\Debug\Telerik.Sitefinity.CommandLineParsing.dll
+D:\webtester\commandLineParsing\bin\Debug\Telerik.Sitefinity.CommandLineParsing.pdb
+D:\webtester\commandLineParsing\bin\Debug\System.dll
+D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.csproj.AssemblyReference.cache
+D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.csproj.CoreCompileInputs.cache
+D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.csproj.CopyComplete
+D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.dll
+D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.pdb
