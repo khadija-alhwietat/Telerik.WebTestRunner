@@ -1,0 +1,4 @@
+D:\webtester\Telerik.Sitefinity.HttpClientCore\obj\Debug\Telerik.Sitefinity.HttpClientCore.csproj.AssemblyReference.cache
+D:\webtester\Telerik.Sitefinity.HttpClientCore\obj\Debug\Telerik.Sitefinity.HttpClientCore.csproj.CoreCompileInputs.cache
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.HttpClientCore\obj\Debug\Telerik.Sitefinity.HttpClientCore.csproj.AssemblyReference.cache
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.HttpClientCore\obj\Debug\Telerik.Sitefinity.HttpClientCore.csproj.CoreCompileInputs.cache

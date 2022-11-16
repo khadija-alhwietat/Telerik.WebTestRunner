@@ -27,10 +27,18 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
       <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
     <Reference Include="Telerik.Sitefinity.CommandLineParsing">
       <HintPath>D:\MAF_Code\MAF_Sitefinity\Telerik.WebTestRunner\Telerik.WebTestRunner.Cmd\Telerik.Sitefinity.CommandLineParsing.dll</HintPath>
     </Reference>
@@ -46,7 +54,7 @@
     <Compile Include="Telerik.WebTestRunner.Cmd\ResultStatistics.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Telerik.WebTestRunner.Client.Core.csproj">
+    <ProjectReference Include="..\Telerik.WebTestRunner.Client.Core\Telerik.WebTestRunner.Client.Core.csproj">
       <Project>{b4458fcd-bd76-4106-ada2-0b796a84cb62}</Project>
       <Name>Telerik.WebTestRunner.Client.Core</Name>
     </ProjectReference>

@@ -6,3 +6,11 @@ D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.
 D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.csproj.CopyComplete
 D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.dll
 D:\webtester\commandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.pdb
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\bin\Debug\Telerik.Sitefinity.CommandLineParsing.dll
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\bin\Debug\Telerik.Sitefinity.CommandLineParsing.pdb
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\bin\Debug\System.dll
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.csproj.AssemblyReference.cache
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.csproj.CoreCompileInputs.cache
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.csproj.CopyComplete
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.dll
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.Sitefinity.CommandLineParsing\obj\Debug\Telerik.Sitefinity.CommandLineParsing.pdb

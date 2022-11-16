@@ -1,10 +1,12 @@
 #define TRACE
 using System;
+using System.Configuration;
 using System.Diagnostics;
 using System.Net;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
+using Telerik.WebTestRunner.Client.Configuration;
 using Telerik.WebTestRunner.Cmd.Commands;
 
 namespace Telerik.WebTestRunner.Cmd
@@ -12,10 +14,12 @@ namespace Telerik.WebTestRunner.Cmd
 	public class CmdRunner
 	{
 		private static RunCommand command;
+        public ExitCode exitCode;
 
-		public  static void Main(string[] args)
+        public static void Main(string[] args)
 		{
-			ServicePointManager.ServerCertificateValidationCallback = ((object _003Cp0_003E, X509Certificate _003Cp1_003E, X509Chain _003Cp2_003E, SslPolicyErrors _003Cp3_003E) => true);
+			var test = RunnerConfig.GetSingleTestExecutionTimeout();
+            ServicePointManager.ServerCertificateValidationCallback = ((object _003Cp0_003E, X509Certificate _003Cp1_003E, X509Chain _003Cp2_003E, SslPolicyErrors _003Cp3_003E) => true);
 			ExitCode exitCode;
 			try
 			{
@@ -25,9 +29,11 @@ namespace Telerik.WebTestRunner.Cmd
 			{
 				Trace.TraceError(ex.ToString());
 				Trace.Flush();
-				throw;
+			//	Console.ReadLine();
+				throw ex;
 			}
-			Console.WriteLine(exitCode.ToString());
+			//Console.WriteLine(exitCode.ToString());
+			//Console.ReadLine();
 			Environment.Exit((int)exitCode);
 		}
 

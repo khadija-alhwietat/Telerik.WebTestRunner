@@ -9,9 +9,9 @@ D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bi
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Microsoft.Http.Extensions.dll
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\IdentityModel.dll
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Newtonsoft.Json.dll
-D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.WebTestRunner.Cmd.pdb
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.Sitefinity.CommandLineParsing.pdb
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.WebTestRunner.Client.Core.pdb
+D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Telerik.WebTestRunner.Cmd.pdb
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\bin\Debug\Newtonsoft.Json.xml
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.AssemblyReference.cache
 D:\MAF_Code\Telerik.WebTestRunner\Telerik.WebTestRunner\Telerik.WebTestRunner\obj\Debug\Telerik.WebTestRunner.csproj.SuggestedBindingRedirects.cache

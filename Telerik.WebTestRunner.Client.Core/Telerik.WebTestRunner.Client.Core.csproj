@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B4458FCD-BD76-4106-ADA2-0B796A84CB62}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Telerik.WebTestRunner.Client.Core</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.HttpClientCore">
+      <HintPath>D:\MAF_Code\MAF_Sitefinity\Telerik.WebTestRunner\Telerik.WebTestRunner.Cmd\Telerik.Sitefinity.HttpClientCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Http">
+      <HintPath>D:\MAF_Code\MAF_Sitefinity\Telerik.WebTestRunner\Telerik.WebTestRunner.Cmd\Microsoft.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Http.Extensions">
+      <HintPath>D:\MAF_Code\MAF_Sitefinity\Telerik.WebTestRunner\Telerik.WebTestRunner.Cmd\Microsoft.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System.Xml.Linq\XmlSerializerExtensions.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Collections\ConfigurationElementCollection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Collections\CredentialsConfigurationCollection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Collections\MachinesConfigurationCollection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Collections\TeamMembersConfigurationCollection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Collections\TeamsConfigurationCollection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Elements\CredentialsConfigElement.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Elements\MachineConfigElement.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Elements\RunnerConfigElement.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Elements\TeamConfigElement.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Elements\TeamMemberConfigElement.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Sections\CredentialsConfigSection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Sections\MachineSpecificSection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Sections\RunnerConfigSection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration.Sections\TeamConfigSection.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration\MachineSpecificConfiguration.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Configuration\RunnerConfig.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Configuration.Elements\TfisSettingsConfigElement.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Diagnostics.Model\DatabaseDiagnosticsItem.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Diagnostics.Model\DatabaseTable.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Diagnostics\DatabaseDiagnosticsXmlLogger.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Diagnostics\DatabaseTableRowsProfiler.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Exceptions\GettingTestsException.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\Counters.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\ErrorInfo.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\Execution.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\Output.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\Results.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\ResultSummary.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestDefinitions.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestEntries.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestEntry.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestList.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestLists.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestMethod.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestRun.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\TestSettings.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\UnitTest.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger.Model\UnitTestResult.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger.MsLogger\MsTestResultXmlLogger.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger\LoggerType.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Logger\TestResultXmlLogger.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core.Utilities\SitefinityHelper.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Core\SitefinityRestHttpClientFactory.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.DataSource\ServiceTestsDataSource.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\IProgressMonitor.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\IProgressPresenter.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\ITestsBatchConfigurator.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\MultilingualTestsBatchConfigurator.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\ProgressMonitor.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\TesetResultEventHandler.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\TestBatchConfiguratorExtensions.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\TestLauncher.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Launcher\TestResultEventArgs.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Logger\SitefinityTestResultXmlLogger.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Logger\WebTestRunnerEventLogger.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\FixtureTestResult.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\MultilingualExecutionMode.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\OperationState.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\RunnerCredentials.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\RunnerFixture.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\RunnerModelMapper.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\RunnerTest.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\RunnerTestBatch.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\RunnerTestInfo.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Model\RunnerTestResult.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Providers\IntegrationTestsProvider.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Providers\ITestProvider.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Providers\TestsLoadedEventArgs.cs" />
+    <Compile Include="Telerik.WebTestRunner.Client.Utilities\TeamAggregator.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfAuthenticationMode.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfCollectionContext.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfCredentials.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfCultureSettingViewModel.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfCultureViewModel.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfFixtureResultEnum.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfItemContext.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfLocalizationSettingsModel.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfSiteDataSourceLinkViewModel.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfSiteGridViewModel.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfSitePropertiesViewModel.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfSiteViewModel.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfTestInfo.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfTestInfoArray.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfTestResult.cs" />
+    <Compile Include="Telerik.WebTestRunner.Model\WcfTestResultEnum.cs" />
+    <Compile Include="XElementExtensions.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
